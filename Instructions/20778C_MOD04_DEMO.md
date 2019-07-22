@@ -171,7 +171,7 @@
 
 1. In Power BI Desktop, on the **Home** tab, click the **Get Data** arrow, and then click **Web**.
 
-2. In the **From Web** dialog box, in the **URL** box, type **http://www.imdb.com/chart/top**, and then click **OK**.
+2. In the **From Web** dialog box, in the **URL** box, type **https://www.imdb.com/chart/top**, and then click **OK**.
 
 3. In the **Navigator** window, select the **Table 0** check box, and then click **Edit**.
 
@@ -185,7 +185,7 @@
 
 8. Click the **Rank & Title** column, and then on the **Home** tab, in the **Transform** group, click **Split Column**, and then click **By Delimiter**.
 
-9.  In the **Split Column by Delimiter** dialog box, in the **Select or enter delimiter** list, click **--Custom--**, and in the box, type a period (**.**).
+9.  In the **Split Column by Delimiter** dialog box, in the **Select or enter delimiter** list, click **--Custom--**, and in the box, type a period followed by a space **". "**.
 
 10. In the **Split at** section, click **Left-most delimiter**, and then click **OK**.
 
@@ -193,11 +193,11 @@
 
 12. Click the **Rank & Title.2** column, and on the **Transform** tab, in the **Any Column** group, click **Replace Values**.
 
-13. In the **Replace Values** dialog box, in the **Value to Find** box, type **(**, and then click **OK**.
+13. In the **Replace Values** dialog box, in the **Value to Find** box, type a space followeb by an opening parenthesis **" ("**, and then click **OK**.
 
 14. With focus on the **Rank & Title.2** column, from the **Any Column** group, click **Replace Values**.
 
-15. In the **Replace Values** dialog box, in the **Value to Find** box, type **)**, and then click **OK**.
+15. In the **Replace Values** dialog box, in the **Value to Find** box, type a closing parenthesis **")"**, and then click **OK**.
 
 16. With focus on the **Rank & Title.2** column, in the **Text Column** group, click **Split Column**, and then click **By Number of Characters**.
 
